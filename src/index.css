@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+}
+
+/* Custom smooth luxury styles */
+html {
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, .font-serif-elegant {
+  font-family: var(--font-serif);
+}
+
+.font-display-luxury {
+  font-family: var(--font-display);
+}
+
+/* Gold foil sheen effect */
+.gold-foil-text {
+  background: linear-gradient(135deg, #B38F56 0%, #D8B77D 40%, #8C6834 70%, #E7CFA3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-border {
+  border-image: linear-gradient(135deg, #D4AF37, #F3E5AB, #AA7A28) 1;
+}
+
+/* Deckle edge subtle border card styling */
+.deckle-card {
+  box-shadow: 0 4px 24px -2px rgba(44, 38, 30, 0.06), 0 2px 8px -1px rgba(44, 38, 30, 0.04);
+}

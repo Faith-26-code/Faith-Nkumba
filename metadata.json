@@ -1,0 +1,6 @@
+{
+  "name": "Amore & Vows — Wedding Invitation & RSVP",
+  "description": "An elegant wedding website to celebrate love, share personalized online invitations, and effortlessly collect guest RSVPs with meal preferences, dietary needs, and couple management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
